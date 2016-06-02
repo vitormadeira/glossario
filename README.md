@@ -1,20 +1,20 @@
 # Glossário
 
 Um plugin em WordPress que sirva como um glossário para traduções de termos e
-para a discussão colaborativa desses verbetes. [Siga a discussão
+para a discussão colaborativa desses verbetes. [Consulte a discussão
 inicial](http://participe.wp-brasil.org/2013/12/13/pessoal-voces-que-estao-nessa-vibe-de-fazer/).
 
 ## Terminologia
 
-Tanto o WordPress quanto os glossários baseiam-se na palavra _termo_ (_term_ no
-inglês), então explicando:
+Quer o WordPress quer os glossários baseiam-se na palavra _termo_ (_term_ no
+inglês), pelo que:
 
 No WordPress um _termo_ é um item editorial cujo significado é dado pela sua
 [_taxonomia_](http://codex.wordpress.org/WordPress_Taxonomy) -- tal como as
-categorias e as tags que existem por padrão na ferramenta e possuem a principal
-finalidade de classificação dos posts.
+categorias e as etiquetas que existem por padrão na ferramenta, cuja finalidade
+principal é a classificação dos artigos.
 
-Na linguística, termo é a representação de uma
+Em linguística, 'termo' é a representação de uma
 [palavra](http://pt.wikipedia.org/wiki/Palavra):
 
 > Quando nos referimos à palavra enquanto índice da ideia que ela representa
@@ -22,7 +22,7 @@ Na linguística, termo é a representação de uma
 > estamos nos referindo ao aspecto interno ou representação imaterial da
 > palavra, e a este aspecto interno, imaterial, damos o nome de termo.
 
-Neste `README` estamos nos referindo aos _termos de um glossário_.
+Neste `README` faz-se referência aos _termos de um glossário_.
 
 ## Propósitos
 
@@ -48,7 +48,7 @@ Portuguesa](http://palheta.wp-portugal.com/glossario-ingles-portugues-pos-acordo
 
 #### Custom post type `glossary_term`
 
-Este _custom post type_ serve para os termos a serem traduzidos e possuem os
+Este _custom post type_ serve para os termos a serem traduzidos e possui os
 seguintes campos:
 
 * Termo original
@@ -73,9 +73,9 @@ seguintes campos:
 
 * Shortcodes para exibição de uma lista com busca e significado dos termos --
   com link para edição no admin para quem tiver acesso
-* Cadastro de arquivos PO para mapeamento dos termos do glossários em traduções
+* Cadastro de ficheiros PO para mapeamento dos termos do glossários em traduções
   completas dos projetos da comunidade -- não envolve funcionalidade de edição
-  de arquivos PO, somente exibição de onde o termo em questão aparece nas
-  traduções. Isto pode ser útil ao se modificar um novo termo e para se
-  realizar a tradução de uma nova _string de tradução_ conforme as referências
+  de ficheiros PO, apenas exibição de onde o termo em questão aparece nas
+  traduções. Isto pode ser útil sempre que se modificar um novo termo ou
+  quando se traduzir uma nova _string de tradução_ conforme as referências
   do glossário.
